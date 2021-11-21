@@ -1,7 +1,7 @@
 #Get RSS feed from blog
 $rssfeed = [xml](Invoke-WebRequest "https://azurealan.ie/feed/" -UseBasicParsing) 
 
-$ResourceGroupName = "festivecalendarapp"
+$ResourceGroupName = "azurealancalendar"
 $StorageAccountName = "azurealanblogs"
 $AzureTableName = "blogs"
  
