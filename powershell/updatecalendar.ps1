@@ -4,7 +4,7 @@ Install-Module Az.Resources, Az.Storage, AzTable -ErrorAction Stop
 Import-Module AzTable
 
 #Fetch new blog
-$ResourceGroupName = "dry-run"
+$ResourceGroupName = "azurealancalendar"
 $StorageAccountName = "azurealanblogs"
 $AzureTableName = "blogs"
 
